@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>ごみばこかつろう</title>
+  <meta name="viewport" content="width=device-width">
+  <meta charset="UTF-8">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="icon" href="image/favicon.ico">
+  if('serviceWorker' in navigator){
+    navigator.serviceWorker.register('/serviceworker.js').then(function(){
+      console.log("Service Worker is registered!!");
+      });
+  }  
+  <style>
+  body{text-align:center;font-size:30px;background-color:#5a544b;color:#16160e}
+  body a{color:#663d00}
+  img{width:50%;height:25%}
+  .small{font-size:7px}
+  .small:not{font-size:30px}
+  </style>
+</head>
+<body>
+<br><br>
+<p>ようこそいらっしゃいました。
+<br>下の<small><s>なんかよくわからない</s></small>画像をクリックして本題に入ります。</p>
+<p><a href="Main.html"><img src="image/GMBK.jpg" alt="ここから本題に入ります"></a></p>
+<div class="small">実は<a href="http://abehiroshi.la.coocan.jp/" target="_blank">阿部寛のホームページ</a>にあこがれて作成しました。</div>
+</body>
+</html>	
