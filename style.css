@@ -17,15 +17,15 @@ body a{color:#ff9900}
 	padding:20px;
 	border:2px solid white;
 	font-size:15px;
-	color:#777777;
+	color:#7dbb7d;
 	font-weight:italic;
 	background-color:#11261c
 }
-.contents img{width:300px;height:80px}
+.contents img{width:50%;height:90%}
 .contents-title{
 	font-size:30px;
 	color:#f6f6f6;
-	font-weight;bold
+	font-weight:bold
 }
 .container{
 	display:flex;
@@ -38,6 +38,6 @@ body a{color:#ff9900}
 	font-size:30px;
 	color:#000;
 	font-weight:italic;
-	background-color:darkgrey
+	background-color:#AFDFE4;
 }
 .footer img{width:50%;height:90%}
