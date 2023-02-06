@@ -2,7 +2,7 @@
   "name"              : "ごみばこかつろう",
   "short_name"        : "GMBK",
   "description"       : "ただのウェブサイト",
-  "start_url"         : "Top.html",
+  "start_url"         : "Main.html",
   "display"           : "fullscreen",
   "background_color"  : "#11261c",
   "theme_color"       : "#ff9900",
