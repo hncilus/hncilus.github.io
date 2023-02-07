@@ -1,1 +1,28 @@
 ErrorDocument 404 /404.html
+# DoCoMo
+RewriteCond %{HTTP_USER_AGENT} DoCoMo
+RewriteRule Error.html [R]
+
+# Softbank
+RewriteCond %{HTTP_USER_AGENT} (J-PHONE|Vodafone|SoftBank)
+RewriteRule Error.html [R]
+
+# AU KDDI
+RewriteCond %{HTTP_USER_AGENT} (KDDI|UP\.Browser)
+RewriteRule Error.html [R]
+
+# DDI Pocket
+RewriteCond %{HTTP_USER_AGENT} DDIPOCKET
+RewriteRule Error.html [R]
+
+# WILLCOM
+RewriteCond %{HTTP_USER_AGENT} WILLCOM
+RewriteRule Error.html [R]
+
+# iPod
+RewriteCond %{HTTP_USER_AGENT} iPod
+RewriteRule Error.html [R]
+
+# iPad
+RewriteCond %{HTTP_USER_AGENT} iPad
+RewriteRule Error.html [R]
