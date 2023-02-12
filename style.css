@@ -23,8 +23,10 @@ body a{color:#ff9900}
 }
 .contents img{width:50%;height:90%}
 .contents-title{
+	text-align:center;
+	background-color:#e0ffcc;
 	font-size:30px;
-	color:#f6f6f6;
+	color:#000;
 	font-weight:bold
 }
 .container{
@@ -38,6 +40,6 @@ body a{color:#ff9900}
 	font-size:30px;
 	color:#000;
 	font-weight:italic;
-	background-color:#AFDFE4;
+	background-color:#e0ffcc;
 }
 .footer img{width:50%;height:90%}
