@@ -3,14 +3,11 @@
 body{font-size:30px;background-color:#7dbb7d}
 body a{color:#ff9900}
 .center{text-align:center}
-/*文字を物凄く小さくするやつ*/
+/*文字のサイズ変えるやつ*/
 .small{font-size:7px;font-weight:bold}
-.small:not{font-size:30px}
-/*文字を普通くらいに小さくするやつ*/
 .smaller{font-size:10px;font-weight:bold}
-/*文字を大きくするやつ*/
-.big{font-size:40px;font-weight:bold}
-.big:not{font-size:30px}
+.big{font-size:30px;font-weight:bold}
+.biggest{font-size:40px;font-weight:bold}
 /*内容設定*/
 .contents{
 	margin:15px;
@@ -19,7 +16,7 @@ body a{color:#ff9900}
 	font-size:15px;
 	color:#7dbb7d;
 	font-weight:italic;
-	background-color:#11261c
+	background-color:#11261c;
 }
 .contents img{width:50%;height:90%}
 .contents-title{
@@ -27,12 +24,12 @@ body a{color:#ff9900}
 	background-color:#e0ffcc;
 	font-size:30px;
 	color:#000;
-	font-weight:bold
+	font-weight:bold;
 }
 .container{
 	display:flex;
 	flex-direction:column;
-	min-height:100vh
+	min-height:100vh;
 }
 .footer{
 	margin-top:auto;
@@ -43,3 +40,11 @@ body a{color:#ff9900}
 	background-color:#e0ffcc;
 }
 .footer img{width:50%;height:90%}
+/*ボタン*/
+button{
+	padding:10px;
+	background-color:#11261c;
+	border:1px solid #fff;
+	border-radius:2px;
+	cursor:pointer;
+}

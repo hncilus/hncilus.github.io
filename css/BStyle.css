@@ -1,0 +1,28 @@
+@charset "uft-8";
+/*基本スタイル*/
+body{font-size:30px;font-weight:bold;background-color:#ffe4c4}
+body a{color:#fff}
+.center{text-align:center}
+/*内容設定*/
+.contents{
+	margin:15px;
+	padding:20px;
+	border:2px solid black;
+	font-size:15px;
+	color:black;
+	background-color:#ff4500;
+}
+.contents2{
+	margin:15px;
+	padding:20px;
+	border:2px solid black;
+	font-size:15px;
+	color:black;
+	background-color:#ff4500;
+	text-decoration:underline
+}
+.contents-title{
+	text-align:center;
+	font-size:30px;
+	color:black;
+}
