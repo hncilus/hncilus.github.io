@@ -7,11 +7,12 @@ body a{color:#ff9900}
 .small{font-size:10px;font-weight:bold}
 .big{font-size:40px;font-weight:bold}
 /*内容設定*/
+.title{font-weight:lighter;font-size:larger}
 .contents{
 	margin:15px;
 	padding:20px;
 	border:2px solid white;
-	font-size:15px;
+	font-size:20px;
 	color:#7dbb7d;
 	font-weight:italic;
 	background-color:#11261c;
@@ -23,7 +24,7 @@ body a{color:#ff9900}
 	font-size:15px;
 	color:#fff;
 	font-weight:italic;
-	background-color:darkolivegreen;
+	background-color:rgb(47, 107, 84);
 }
 .contents-title{
 	text-align:center;
@@ -45,5 +46,12 @@ body a{color:#ff9900}
 	font-weight:bold;
 	background-color:#e0ffcc;
 	text-align:center;
+}
+.nofitication{
+	margin:5px;padding:5px;
+	background-color:#a5a5a5;
+	color:#000;
+	font-weight:lighter;
+	font-size:smaller;
 }
 .footer img{width:50%;height:90%}
