@@ -2,6 +2,7 @@
 /*基本スタイル*/
 body{font-size:20px;background-color:#7dbb7d}
 body a{color:#ff9900}
+body a:hover{color:#0065ff}
 .center{text-align:center}
 /*文字のサイズ変えるやつ*/
 .small{font-size:10px;font-weight:bold}
@@ -14,16 +15,16 @@ body a{color:#ff9900}
 	border:2px solid white;
 	font-size:20px;
 	color:#7dbb7d;
-	font-weight:italic;
+	font-weight:light;
 	background-color:#11261c;
 }
 .contents2{
 	margin:15px;
 	padding:20px;
 	border:2px solid white;
-	font-size:15px;
+	font-size:20px;
 	color:#fff;
-	font-weight:italic;
+	font-weight:bold;
 	background-color:rgb(47, 107, 84);
 }
 .contents-title{
@@ -54,4 +55,7 @@ body a{color:#ff9900}
 	font-weight:lighter;
 	font-size:smaller;
 }
+/*画像の処理*/
 .footer img{width:50%;height:90%}
+.contents img{width:50%;height:90%}
+.contents2 img{width:100%;height:100%}
