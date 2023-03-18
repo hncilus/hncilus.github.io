@@ -1,8 +1,8 @@
 @charset "uft-8";
 /*基本スタイル*/
 body{font-size:20px;background-color:#7dbb7d}
-body a{color:#ff9900}
-body a:hover{color:#0065ff}
+body a{color:#ff9900;text-decoration:none}
+body a:hover{color:#0065ff;text-decoration:underline}
 .center{text-align:center}
 /*文字のサイズ変えるやつ*/
 .small{font-size:10px;font-weight:bold}
