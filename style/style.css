@@ -1,6 +1,6 @@
 @charset "uft-8";
 /*基本スタイル*/
-body{font-size:20px;background-color:#7dbb7d}
+body{font-size:20px;background-color:#7dbb7d;font-family:serif}
 body a{color:#ff9900;text-decoration:none}
 body a:hover{color:#0065ff;text-decoration:underline}
 .center{text-align:center}
