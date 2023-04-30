@@ -4,9 +4,11 @@ body{font-size:20px;background-color:#7dbb7d;font-family:serif}
 body a{color:#ff9900;text-decoration:none}
 body a:hover{color:#0065ff;text-decoration:underline}
 .center{text-align:center}
+.right{text-align:right}
 /*文字のサイズ変えるやつ*/
-.small{font-size:10px;font-weight:bold}
-.big{font-size:40px;font-weight:bold}
+.big{font-size:60px;font-weight:bold}
+.small{font-size:10px}
+s{font-size:10px}
 /*内容設定*/
 .title{font-weight:lighter;font-size:larger}
 .contents{
