@@ -1,7 +1,6 @@
 @charset "uft-8";
 /*基本スタイル*/
-body{font-size:20px;background-color:#7dbb7d;font-family:serif}
-.center{text-align:center}
+body{font-size:15px;background-color:#7dbb7d;font-family:serif}
 .right{text-align:right}
 /*文字のサイズ変えるやつ*/
 .big{font-size:60px;font-weight:bold}
@@ -28,7 +27,7 @@ sl{font-size:10px}
 	background-color:rgb(47, 107, 84);
 }
 .contents-title{
-	text-align:center;
+	text-align:right;
 	background-color:#e0ffcc;
 	font-size:30px;
 	color:#000;
@@ -64,6 +63,7 @@ sl{font-size:10px}
 	font-size:smaller;
 	background-color:#a5a5a5;
 }
+.background{display:flex;justify-content:right;flex-wrap:wrap}
 /*画像の処理*/
 .bottom img{width:50%;height:25%}
 .footer img{width:25%;height:5%}
