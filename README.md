@@ -1,5 +1,5 @@
 # このサイトはなに？
-### 詳しい事は[ここ](https://hncilus.github.io/ABOUT.html)に書いてありますが、丸投げでは面白くないので一文だけ解説しようと思います。
+### 詳しい事は[ここ](https://hncilus.github.io/CREDIT/ABOUT.html)に書いてありますが、丸投げでは面白くないので一文だけ解説しようと思います。
 <br>
 
 # 一文解説
