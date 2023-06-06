@@ -1,0 +1,25 @@
+@charset "uft-8";
+
+/*基本スタイル*/
+body{font-size:20px;background-color:#7dbb7d;font-family:serif}
+body a{color:#ff9900;text-decoration:none}
+body a:hover{color:#0065ff;text-decoration:underline}
+.center{text-align:center}
+.right{text-align:right}
+
+/*文字のサイズ変えるやつ*/
+.big{font-size:60px;font-weight:bold}
+.small{font-size:15px}
+
+/*内容設定*/
+.title{font-weight:lighter;font-size:larger}
+.contents{margin:15px;padding:20px;border:2px solid #fff;font-size:20px;color:#7dbb7d;font-weight:light;background-color:#11261c}
+.contents-title{text-align:center;background-color:#e0ffcc;font-size:30px;color:#000;font-weight:bold}
+.footer{margin:5px;padding:10px;font-size:18px;color:#000;font-weight:bold;background-color:#e0ffcc;text-align:center}
+.container{display:flex;flex-direction:column;min-height:100vh}
+
+/*画像の処理*/
+.bottom img{width:50%;height:25%}
+.footer img{width:25%;height:5%}
+.contents img{width:50%;height:90%}
+.contents2 img{width:100%;height:100%}
