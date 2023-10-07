@@ -1,0 +1,21 @@
+body{
+    background-color:#7dbb7d;text-align:center;
+    font-size:50px;font-weight:100;
+}
+body a{
+    color:#7dbba8;background-color:#000;
+    text-align:center;text-decoration:none;
+}
+.title{
+    padding:5px;
+    border-radius:10px;font-size:80%;font-weight:300;
+    color:#7dbb7d;background-color:#757d53;
+    margin:50px;
+}
+.content{
+    margin-left:15%;margin-right:15%;
+    color:#c4ebf0;margin:10px;
+    padding:0.005%;border-radius:8px;
+}
+.navigation{font-size:70%}
+.line{border-bottom:dotted 2px #1e1126}

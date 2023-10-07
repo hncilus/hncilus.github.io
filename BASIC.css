@@ -1,0 +1,27 @@
+@charset "UTF-8";
+body{
+    background-color:#e4e4e4;text-align:center;
+    font-size:30px;font-weight:100;
+}
+body a{text-decoration:none;color:#006788}
+.line{border-bottom:solid 1.5px #11261c}
+.content{
+    margin-top:5%;
+    margin-left:15%;margin-right:15%;
+}
+.title{font-weight:bold}
+.promotion{
+    text-align:center;
+    margin-top:5%;margin-bottom:5%;
+}
+.footer{
+    background-color:#11261c;
+    margin-top:20px;text-align:center;
+    font-weight:bold;
+}
+.footer a{color:#e4e4e4}
+.guide{padding:10px;margin:10px}
+.guide h2{font-size:17px}
+.guide .title{font-weight:900;text-decoration:underline;font-size:20px;margin:10px}
+.sl{font-size:10px}
+.mid_sl{font-size:15px}
