@@ -1,0 +1,72 @@
+@charset "UTF-8";
+/*基本*/
+body{
+    background-color:#11261c;
+    color:#faebd7;
+    font-size:30px;
+    text-align:center;
+}
+.title{
+    background-color:#486d48;
+    font-size:50px;
+    border-radius:5px;
+    padding:15px;
+    margin:30px;
+}
+.contents{
+    background-color:#486d48;
+    color:#ff9900;
+    font-size:15px;
+    border-radius:5px;
+    padding:15px;
+    margin:30px;
+}
+.background{
+    justify-content:center;
+    flex-wrap:wrap;
+}
+.subject{
+    background-color:#c9c9c9;
+    color:#9c0000;
+    font-size:20px;
+    font-weight:900;
+}
+ul{list-style-type:circle}
+.guide{
+    margin:10px;
+    border-top:solid 1.5px #11261c;
+}
+.header{
+    font-size:20px;
+    font-weight:900;
+    width:100%;
+    border-bottom:solid 1px #ff9900;
+  }
+.footer{
+    font-size:20px;
+    font-weight:900;
+    width:100%;
+    border-top:solid 1px #ff9900;
+}
+/* リンク*/
+body a{
+    color:#ff9900;
+    text-decoration:none;
+}
+.contents a{
+    font-size:30px;
+    color:#7dbb7d;
+    background-color:#000;
+}
+.contents a:hover{
+    background-color:#7dbb7d;
+    color:#000;
+    font-size:50px;
+    font-weight:900;
+}
+/*文字関係*/
+.center{text-align:center}
+.right{text-align:right}
+.sl{font-size:10px}
+.mid_sl{font-size:15px}
+
