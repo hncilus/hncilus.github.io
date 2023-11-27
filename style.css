@@ -3,8 +3,8 @@
 body{
     color:#7dbb7d;
     background-color:#11261c;
-    font-weight:100;
     font-size:15px;
+    text-align:center;
 }
 .title{
     color:#ff9900;
@@ -15,8 +15,6 @@ body{
     margin-bottom:10px;
 }
 .contents{
-    font-size:15px;
-    text-align:center;
     padding:15px;
     margin:1px;
 }
@@ -27,32 +25,25 @@ body{
 .header{
     color:#7dbb7d;
     font-size:20px;
-    font-weight:900;
     border-bottom:solid 1px #ff9900;
 }
 .footer{
     color:#7dbb7d;
     font-size:20px;
-    font-weight:900;
     text-align:right;
     width:100%;
     border-top:solid 1px #ff9900;
 }
 .blockL {
-    float: left;
-    width: 50%;
+    float:left;
+    width:50%;
     text-align:left;
  }
  .blockR{
     float:right;
     width:50%;
-    text-align: right;
+    text-align:right;
  }
- .blockC{
-    float:center;
-    width:100%;
-    text-align:center;
-}
 /* リンク*/
 body a{
     color:#ff9900;
@@ -61,15 +52,43 @@ body a{
 .footer a{
     font-size:30px;
     color:#7dbb7d;
-    background-color:#000;
 }
 .footer a:hover{
     background-color:#7dbb7d;
     color:#000;
     font-size:50px;
-    font-weight:900;
 }
 /*文字関係*/
-.center{text-align:center}
+.left{text-align:left}
 .right{text-align:right}
 
+/*width が00px以下*/
+@media(max-width:700px){
+    body{font-size:20px;background-color:#7dbb7d;color:#11261c}
+    body a{color:#ff9900}
+    .contents{font-size:15px;background-color:#11261c}
+    .contents a{color:#7dbb7d}
+    .header,.footer{background-color:#11261c;color:#7dbb7d}
+    
+    .title{
+        font-size:30px;padding:15px;margin:30px;
+        border-bottom:solid 1px #ff9900;
+    }
+    .contents{
+        border-bottom:solid 1px #ff9900;
+        color:#ff9900;
+        font-size:25px;
+        padding:15px;margin:30px;
+        border-top:solid 1px #ff9900;
+    }
+    .blockL {
+        float:center;
+        width:100%;
+        text-align:left;
+    }
+     .blockR{
+        float:center;
+        width:100%;
+        text-align:right;
+    }
+}
