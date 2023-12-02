@@ -1,85 +1,38 @@
 @charset "UTF-8";
 /*基本*/
 body{
-    color:#7dbb7d;
-    background-color:#11261c;
-    font-size:15px;
+    color:#7dbb7d;background-color:#11261c;
+    font-size:15px;font-family:'Courier New', Courier, monospace;
     text-align:center;
 }
 .title{
     color:#ff9900;
     font-size:25px;
     border-bottom:solid 1.5px #7dbb7d;
-    padding:15px;
-    margin:30px;
-    margin-bottom:10px;
+    padding:15px;margin:30px;margin-bottom:10px;
 }
-.contents{
-    padding:15px;
-    margin:1px;
-}
-.background{
-    justify-content:center;
-    flex-wrap:wrap;
-}
-.header{
-    color:#7dbb7d;
-    font-size:20px;
-    border-bottom:solid 1px #ff9900;
-}
-.footer{
-    color:#7dbb7d;
-    font-size:20px;
-    text-align:right;
-    width:100%;
-    border-top:solid 1px #ff9900;
-}
-.blockL {
-    float:left;
-    width:50%;
-    text-align:left;
- }
- .blockR{
-    float:right;
-    width:50%;
-    text-align:right;
- }
+.contents{padding:15px;margin:30px}
+.footer{color:#7dbb7d;font-size:20px;border-top:solid 1px #ff9900;padding: 3%;padding-bottom: 0%;}
+.blockL {float:left;width:50%;text-align:left}
+.blockR{float:right;width:50%;text-align:right}
+
 /* リンク*/
-body a{
-    color:#ff9900;
-    text-decoration:none;
-}
-.footer a{
-    font-size:30px;
-    color:#7dbb7d;
-}
-.footer a:hover{
-    background-color:#7dbb7d;
-    color:#000;
-    font-size:50px;
-}
+body a{color:#ff9900;text-decoration:none}
+body a:hover{background-color:#7dbb7d;color:#000;font-size:50px}
+
 /*文字関係*/
 .left{text-align:left}
 .right{text-align:right}
+body hr{color:#7dbb7d}
 
-/*width が00px以下*/
-@media(max-width:700px){
-    body{font-size:20px;background-color:#7dbb7d;color:#11261c}
-    body a{color:#ff9900}
-    .contents{font-size:15px;background-color:#11261c}
-    .contents a{color:#7dbb7d}
-    .header,.footer{background-color:#11261c;color:#7dbb7d}
-    
+/*width が800px以下*/
+@media(max-width:800px){
     .title{
-        font-size:30px;padding:15px;margin:30px;
-        border-bottom:solid 1px #ff9900;
+        padding:5px;margin:10px;
     }
     .contents{
-        border-bottom:solid 1px #ff9900;
-        color:#ff9900;
         font-size:25px;
-        padding:15px;margin:30px;
-        border-top:solid 1px #ff9900;
+        padding:15px;margin:1px;
     }
     .blockL {
         float:center;
