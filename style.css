@@ -1,0 +1,67 @@
+@charset "UTF-8";
+/*基本*/
+body{
+    background-color:#7dbb7d;color:#11261c;
+    font-size:15px;font-family:'Courier New', Courier, monospace;
+    text-align:center;
+}
+.title{
+    color:#ff1e00;
+    font-size:25px;
+    border-bottom:solid 1.5px #ff1e00;
+    padding:15px;margin:30px;margin-bottom:10px;
+}
+
+ul{display:flex;justify-content:center}
+li{list-style: none}
+.example{position:relative}
+.example p{
+    position:absolute;bottom:0;left:5px;right:5px;
+    color:#ff9900;font-weight:bold;font-size:15px;
+}
+.example img{height: 100%}
+
+/*リンク*/
+body a{color:#ff1e00;text-decoration:none}
+.title a{color:#ff1e00}
+.title a:hover{color:#ff1e00}
+
+/*文字関係*/
+.left{text-align:left}
+.right{text-align:right}
+body hr{color:#7dbb7d}
+
+/*主にSNS.htmlで使うCSS */
+.background{
+    height:100%;
+    position:relative;
+    display:flex;
+    justify-content:space-between;
+}
+.LContents,.RContents{width:50%;height:32em}
+.LContents p,.RContents p{
+    -ms-writing-mode: tb-rl;writing-mode:vertical-rl;
+    text-orientation:upright;
+    position:absolute;top:5em;bottom:2em;
+    color:#ff9900;font-weight:bold;font-size:30px;
+}
+.LContents img,.RContents img{
+    height:200%;width:100%;
+    background-repeat:no-repeat;
+}
+
+/*width が800px以下*/
+@media(max-width:800px){
+/*主にSNS.htmlで使うCSS */
+.LContents,.RContents{width:50%;height:320px}
+}
+/*デバイスのテーマがダークテーマ*/
+@media (prefers-color-scheme: dark) {
+body{color:#7dbb7d;background-color:#11261c}
+.title{color:#ff9900}
+
+/*リンク*/
+body a{color:#ff9900;text-decoration:none}
+.title a{color:#ff9900}
+.title a:hover{color:#ff9900}
+}
